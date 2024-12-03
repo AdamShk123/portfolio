@@ -1,0 +1,30 @@
+:host {
+    flex: 1;
+    height: 50px;
+    display: flex;
+    background-color: rebeccapurple;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left {
+    flex: 1;
+    color: white;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+}
+
+.right {
+    min-width: fit-content;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    min-height: 100%;
+    align-items: center;
+}
+
+.sectionLink 
+{
+    padding: 10px;
+}
