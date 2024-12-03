@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
+import 'bootstrap/dist/css/bootstrap.css';
+
 interface WeatherForecast {
   date: string;
   temperatureC: number;
@@ -12,7 +14,7 @@ interface WeatherForecast {
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.scss'
 })
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];

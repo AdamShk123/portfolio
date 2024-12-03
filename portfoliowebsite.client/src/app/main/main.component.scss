@@ -1,10 +1,12 @@
+$primary: #663399;
+
 :host {
-    flex: 1;
-    height: 50px;
-    display: flex;
-    background-color: rebeccapurple;
-    flex-direction: row;
-    align-items: center;
+  flex: 1;
+  height: 50px;
+  display: flex;
+  background-color: $primary;
+  flex-direction: row;
+  align-items: center;
 }
 
 .left {
